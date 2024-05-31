@@ -364,6 +364,7 @@ class ComponentHelper
 		// If component is disabled throw error
 		if (!static::isEnabled($option) || !file_exists($path))
 		{
+			
 			throw new MissingComponentException(\JText::_('JLIB_APPLICATION_ERROR_COMPONENT_NOT_FOUND'), 404);
 		}
 

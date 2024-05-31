@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<extension type="component" verson="3.0" method="upgrade">
+
+<name>COM_NEWS</name>
+<creationDate>November 2015 </creationDate>
+<author>Viktor</author>
+<authorEmail>admin@mail.ru</authorEmail>
+<author>http://webformyself.com</author>
+<license>License info</license>
+<version>1.0.0</version>
+<description>COM_NEWS_DESCRIPTION</description>
+
+<files folder="site">
+
+<folder>language</folder>
+<folder>models</folder>
+<folder>views</folder>
+<filename>news.php</filename>
+<filename>controller.php</filename>
+
+</files>
+
+
+<languages folder="site/language">
+
+<language tag='ru-RU'>ru-RU/ru-RU.com_news.ini</language>
+
+</languages>
+
+
+<install>
+
+<sql>
+
+<file driver='mysql' charset='utf-8'>sql/install.mysql.utf8.sql</file>
+
+
+</sql>
+
+</install>
+
+
+<install>
+
+<sql>
+
+<file driver='mysql' charset='utf-8'>sql/uninstall.mysql.utf8.sql</file>
+
+
+</sql>
+
+</install>
+
+<administration>
+
+<menu link="index.php?option=com_news">COM_NEWS</menu>
+
+<files folder="admin">
+
+<folder>language</folder>
+<folder>models</folder>
+<folder>views</folder>
+<folder>controllers</folder>
+<folder>tables</folder>
+<folder>sql</folder>
+<filename>news.php</filename>
+<filename>controller.php</filename>
+
+</files>
+
+<languages folder="admin/language">
+
+<language tag='ru-RU'>ru-RU/ru-RU.com_news.ini</language>
+<language tag='ru-RU'>ru-RU/ru-RU.com_news.sys.ini</language>
+
+</languages>
+
+</administration>
+
+
+
+
+</extension>
