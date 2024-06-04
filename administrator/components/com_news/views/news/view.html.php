@@ -15,7 +15,7 @@ protected function addToolBar(){
 
 
 JToolbarHelper::title(JText::_('COM_NEWS'));
-JToolbarHelper::addNew('item.add');
+JToolbarHelper::addNew('Item.add');
 JToolbarHelper::editList('item.edit');
 JToolbarHelper::deleteList('news.delete');
 }

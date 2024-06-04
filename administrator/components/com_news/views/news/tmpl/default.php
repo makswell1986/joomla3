@@ -3,7 +3,7 @@ defined('_JEXEC') or exit();
 
 ?>
 
-<form action="index.php?option=com_news&view=news" metho="post" id="adminForm" name="adminForm">
+<form action="index.php?option=com_news&view=news" method="post" id="adminForm" name="adminForm">
 
 <table class="table table-striped tabel-hover">
     <thead>
