@@ -22,7 +22,7 @@ class NewsModelItem extends JModelAdmin{
 return $form;
     }
 
-public function getItem(){
+public function getItem($data=null){
     return true;
 }
 

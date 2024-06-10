@@ -12,6 +12,8 @@ public function display($tpl=null){
 $this->form=$this->get('Form');// getForm
 $this->item=$this->get('Item');// getItem
 
+
+
 $this->addToolBar();
 parent::display($tpl);
 $this->setDocument();

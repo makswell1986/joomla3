@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding="utf-8">
+
+<form>
+
+<fieldset name='details' label='COM_NEWS_ITEM_DETAILS'>
+
+<field name='id' type='hidden'>
+
+<field name='title' type='text' label='COM_NEWS_TITLE_LABEL' description='COM_NEWS_ITEM_TITLE_DESC' size='40' class='inputbox' required='true' default="" />
+
+<field name='alias' type='text' label='COM_NEWS_ITEM_ALIAS' description='COM_NEWS_ITEM_ALIAS_DESC'  default="" />
+
+<field name='text' type='editor' label='COM_NEWS_ITEM_TEXT' description='COM_NEWS_ITEM_DESC'  default="" buttons='true' />
+
+
+<field name='published' type='list' label='JSTATUS' description='JFIELD_PUBLISHED_DESC' class='chzn-color-state' filter='intval' size='1'  default='1' />
+
+<option value='1'>JPUBLISHED</option>
+<option value='0'>JUNPUBLISHED</option>
+
+</field>
+
+<field name='published_up' type='calendar' label='COM_NEWS_PUBLISH_UP_LABEL' description='COM_NEWS_PUBLISH_UP_DESC'  format='%Y-%m-%d %H:%I:%S' size='22' />
+
+
+<fields name='images'>
+
+<field name='image1' type='media' label='COM_NEWS_ITEM_IMG' description='COM_NEWS_ITEM_IMG_DESCRIPTION' />
+
+</fields>
+
+</fieldset>
+
+</form>
